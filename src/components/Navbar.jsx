@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { IoRestaurantSharp } from "react-icons/io5";
-import Button from "./layouts/Button";
+import Button from "../layouts/Button";
 import { AiOutlineMenuUnfold } from "react-icons/ai";
 import { BiChevronDown } from "react-icons/bi";
 import { AiOutlineClose } from "react-icons/ai";
@@ -69,7 +69,7 @@ return (
 </li>
 
 <li>
-<Link to="dishes" spy={true} smooth={true} duration={500} className="text-gray-800 hover:text-[red] transition-all cursor-pointer" > Crispy
+<Link to="dishes" spy={true} smooth={true} duration={500} className="text-gray-800 hover:text-[red] transition-all cursor-pointer" > Crujiente
 </Link>
 </li>
 </ul>
